@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+:root {
+    --cor1: #0F0F0F;
+    --cor2: #1F1F1F;
+    --cor3: #2E2E2E;
+    --cor4: #3D3D3D;
+    --cor5: #4D4D4D;
+
+    --cor6: #0455BF;
+    --cor7: #034AA6;
+    --cor8: #B3CFF2;
+    --cor9: #035AA6;
+    --cora: #F2F2F2;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor5));
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quadrado {
+    width: 60px;
+    height: 10px;
+    background-color: var(--cora);
+    box-shadow: 2px 2px 2px var(--cor1);
+    border-radius: 20px 20px 0px 0px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0px 20px;
+    height: 480px;
+    background-image: url(imagens/fundo-cracha.jpg);
+    background-size: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px var(--cor1);
+    border: 1px solid var(--cor8);
+}
+
+.perfil {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid var(--cor8);
+    margin-top: 30px;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -50px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: var(--cor9);
+    color: var(--cora);
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 40px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.insta {
+    width: 25px;
+}
+
+.tiktok {
+    width: 25px;
+}
